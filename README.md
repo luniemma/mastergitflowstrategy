@@ -48,3 +48,23 @@ To stop monitoring, simply press Ctrl + C in the terminal.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+# CPU Monitor Script
+
+This Python script monitors the CPU usage of your machine and displays it in real-time. It prints the percentage of CPU utilization at specified intervals.
+
+## Features
+- Displays CPU usage as a percentage.
+- Monitors the CPU usage for all logical CPUs.
+- Configurable interval for monitoring.
+
+## Requirements
+
+- Python 3.x
+- `psutil` library
+
+## Installation
+
+1. Clone the repository or download the script.
+   
+   ```bash
+   git clone <repository_url>
